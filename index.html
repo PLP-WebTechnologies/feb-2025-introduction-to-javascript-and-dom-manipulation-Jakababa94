@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShoeXpress - E-commerce for Shoes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+                     crossorigin="anonymous" referrerpolicy="no-referrer" />">
+</head>
+
+<body>
+    <div id="cart">🛒 Cart: <span id="cartCount">0</span> items</div>
+
+    <header>
+        <h1>ShoeXpress</h1>
+        <p>Your one-stop e-commerce store for stylish and affordable shoes.</p>
+    </header>
+
+    <nav>
+        <a href="#men">Men</a>
+        <a href="#women">Women</a>
+        <a href="#kids">Kids</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search for shoes...">
+        <select id="filterSelect">
+            <option value="all">All Categories</option>
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+            <option value="kids">Kids</option>
+        </select>
+    </div>
+
+    <main>
+        <section id="men">
+            <h2>Men's Shoes</h2>
+            <div class="product-grid">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2225727/pexels-photo-2225727.jpeg?
+                              auto=compress&cs=tinysrgb&w=600" alt="Air Sprint">
+                    <div class="card-content">
+                        <h3>Air Sprint</h3>
+                        <p>Lightweight and stylish sneakers perfect for daily wear.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/7252538/pexels-photo-7252538.jpeg?
+                            auto=compress&cs=tinysrgb&w=600" alt="Urban boots">
+                    <div class="card-content">
+                        <h3>Urban Boots</h3>
+                        <p>Durable boots for outdoor adventures and workwear.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/4593811/pexels-photo-4593811.jpeg?
+                            auto=compress&cs=tinysrgb&w=600" alt="Classic Loafers">
+                    <div class="card-content">
+                        <h3>Classic Loafers</h3>
+                        <p>Timeless design for comfort and elegance.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="women">
+            <h2>Women's Shoes</h2>
+            <div class="product-grid">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/3602449/pexels-photo-3602449.jpeg?
+                            auto=compress&cs=tinysrgb&w=600"
+                        alt="Elegant Heels">
+                    <div class="card-content">
+                        <h3>Elegant Heels</h3>
+                        <p>Chic and graceful heels for special occasions.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/8933050/pexels-photo-8933050.jpeg?
+                            auto=compress&cs=tinysrgb&w=600"
+                        alt="Flats">
+                    <div class="card-content">
+                        <h3>Daily Flats</h3>
+                        <p>Comfort meets style in our everyday flats collection.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/618612/pexels-photo-618612.jpeg?
+                            auto=compress&cs=tinysrgb&w=600"
+                        alt="Running Shoes">
+                    <div class="card-content">
+                        <h3>RunnerX</h3>
+                        <p>Designed for speed and comfort during every run.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kids">
+            <h2>Kids' Shoes</h2>
+            <div class="product-grid">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/5275783/pexels-photo-5275783.jpeg?
+                            auto=compress&cs=tinysrgb&w=600"
+                        alt="Kids Sneakers">
+                    <div class="card-content">
+                        <h3>Fun Runners</h3>
+                        <p>Colorful, comfy sneakers that kids love.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/7186633/pexels-photo-7186633.jpeg?
+                            auto=compress&cs=tinysrgb&w=600"
+                        alt="School Shoes">
+                    <div class="card-content">
+                        <h3>Back2School</h3>
+                        <p>Smart, durable shoes for everyday school wear.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/8954887/pexels-photo-8954887.jpeg?
+                            auto=compress&cs=tinysrgb&w=600"
+                        alt="Kids Sandals">
+                    <div class="card-content">
+                        <h3>Sunny Steps</h3>
+                        <p>Breathable and easy sandals for summer playtime.</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Contact us: <a href="mailto:support@shoexpress.com">support@shoexpress.com</a> | Phone: (+254) 721-805-204
+        </p>
+        <p>&copy; 2025 ShoeXpress. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- End of index.html -->
